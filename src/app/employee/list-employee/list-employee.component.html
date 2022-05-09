@@ -1,0 +1,33 @@
+<h2 class="display-3">Employee List</h2>
+
+<div class="card card-body">
+  <div class="table-responsive">
+    <table class="table table-bordered" *ngIf="employees">
+      <thead>
+        <tr class="bg-secondary bg-opacity-25">
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Contact Preference</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employees">
+          <td>{{ employee.fullName }}</td>
+          <td>{{ employee.email }}</td>
+          <td>{{ employee.phone }}</td>
+          <td>{{ employee.contactPref }}</td>
+          <td>
+            <button
+              class="btn btn-primary btn-sm"
+              (click)="editBtnClick(employee.id)"
+            >
+              Edit
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

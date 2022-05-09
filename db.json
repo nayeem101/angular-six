@@ -1,0 +1,61 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "fullName": "Nayeem Islam",
+      "contactPref": "email",
+      "email": "nayeem@nftech.com",
+      "phone": "0123124124",
+      "skills": [
+        {
+          "skillName": "JS",
+          "experienceInYears": 3,
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "Nodjs",
+          "experienceInYears": 2,
+          "proficiency": "beginner"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "Anik",
+      "contactPref": "phone",
+      "email": "anik@nftech.com",
+      "phone": "0171624124",
+      "skills": [
+        {
+          "skillName": "C++",
+          "experienceInYears": 3,
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "Python",
+          "experienceInYears": 2,
+          "proficiency": "intermediate"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullName": "Foujia Islam",
+      "contactPref": "email",
+      "email": "foujia25@nftech.com",
+      "phone": "0123124127",
+      "skills": [
+        {
+          "skillName": "C++",
+          "experienceInYears": 2,
+          "proficiency": "intermediate"
+        },
+        {
+          "skillName": "Python",
+          "experienceInYears": 1,
+          "proficiency": "beginner"
+        }
+      ]
+    }
+  ]
+}
